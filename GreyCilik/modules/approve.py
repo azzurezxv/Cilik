@@ -1,11 +1,11 @@
 import html
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik import dispatcher, DRAGONS
-from GreyCilik.modules.helper_funcs.extraction import extract_user
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh import dispatcher, DRAGONS
+from Afffaantuhhhh.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler
-import GreyCilik.modules.sql.approve_sql as sql
-from GreyCilik.modules.helper_funcs.chat_status import user_admin
-from GreyCilik.modules.log_channel import loggable
+import Afffaantuhhhh.modules.sql.approve_sql as sql
+from Afffaantuhhhh.modules.helper_funcs.chat_status import user_admin
+from Afffaantuhhhh.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
