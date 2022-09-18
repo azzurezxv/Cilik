@@ -10,12 +10,12 @@ from pyrogram.types import (
     Message,
 )
 
-from GreyCilik import pbot as Client
-from GreyCilik import (
+from Afffaantuhhhh import pbot as Client
+from Afffaantuhhhh import (
     OWNER_ID as owner,
     SUPPORT_CHAT as log,
 )
-from GreyCilik.utils.errors import capture_err
+from Afffaantuhhhh.utils.errors import capture_err
 
 
 def content(msg: Message) -> [None, str]:
