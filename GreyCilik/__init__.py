@@ -23,7 +23,7 @@ from ptbcontrib.postgres_persistence import PostgresPersistence
 StartTime = time.time()
 
 def get_user_list(__init__, key):
-    with open("{}/GreyCilik/{}".format(os.getcwd(), __init__), "r") as json_file:
+    with open("{}/Afffaantuhhhh/{}".format(os.getcwd(), __init__), "r") as json_file:
         return json.load(json_file)[key]
 
 # enable logging
@@ -298,7 +298,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from GreyCilik.modules.helper_funcs.handlers import (
+from Afffaantuhhhh.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
