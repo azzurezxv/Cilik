@@ -1,5 +1,5 @@
 {
-      "name": "Cilik Robot",
+      "name": "Miku robot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "stack": "heroku-22",
       "keywords": [
@@ -7,11 +7,11 @@
          "advance",
          "group",
          "manager",
-         "CilikRobot"
+         "Miku robot"
       ],
     
-   "logo":    "https://telegra.ph/file/a807460d64ac73c5dc83a.jpg",  
-   "repository": "https://github.com/grey423/Cilik",
+   "logo":https://telegra.ph/file/72991fad3de48ba4e02fb.jpg.jpg",  
+   "repository": "https://github.com/azzurezxv/miku",
    "addons": [
           {
          "options": {
@@ -65,7 +65,7 @@
       },
       "BOT_USERNAME": {
          "description": "Username bot Anda tanpa @",
-         "value": "GreyCilik_bot"
+         "value": "miku robot"
       },
       "BOT_ID": {
          "description": "Masukan Id Bot Anda",
@@ -74,12 +74,12 @@
 
       "OWNER_USERNAME": {
          "description": "Username Anda tanpa @",
-         "value": "greyyvbss"
+         "value": "Afffaantuhhhh"
       },
       "SUPPORT_CHAT": {
          "description": "Masukan Username Grup Anda, Masukan Tanpa @.",
          "required": true,
-         "value": "CilikSupport"
+         "value": "miku support"
       },
       "MONGO_DB_URI": {
          "description": "Masukan MongoDb Database, Dapatkan di (MongoDB.com).",
@@ -201,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Donasi",
          "required": false,
-         "value": "@greyyvbss"
+         "value": "@Afffaantuhhhh"
       },
       "DEL_CMDS": {
          "description": "Setel ini ke True jika Anda ingin menghapus pesan perintah dari pengguna yang tidak memiliki izin untuk menjalankan perintah itu.",
