@@ -107,7 +107,7 @@ buttons = [
     ],
 ]
 
-Inlinekeyboardbutton (text=☇Owner☇ {5095199536}", callback_data="Miku_")
+Inlinekeyboardbutton (text=f"☇Owner☇ {5095199536}", callback_data="Miku_")
 
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
