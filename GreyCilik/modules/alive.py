@@ -21,4 +21,4 @@ async def awake(event):
   JHON += f"✪ **Pyrogram Version :** `{pyrover}` \n\n"
   BUTTON = 🔥Thanks For Adding Me🔥**"
   BUTTON = [[Button.url("ʜᴇʟᴘ​", f"https://t.me/{bu}?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​","https://t.me/azzurezxv")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=GREY,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, PHOTO, caption=JHON,  buttons=BUTTON)
