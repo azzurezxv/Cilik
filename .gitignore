@@ -1,17 +1,17 @@
 # Config files, logs and stuff
-GreyCilik/modules/helper_funcs/temp.txt
-GreyCilik/elevated_users.json
-GreyCilik/config.py
-GreyCilik/config.ini
+Afffaantuhhhh/modules/helper_funcs/temp.txt
+Afffaantuhhhh/elevated_users.json
+Afffaantuhhhh/config.py
+Afffaantuhhhh/config.ini
 log.txt
 kangsticker.png
 updates.txt
 start_service.bat
 
 # Session files
-GreyCilik/*.session
-GreyCilik/*.session-journal
-Grey.session-journal
+Afffaantuhhhh/*.session
+Afffaantuhhhh/*.session-journal
+Yan.session-journal
 *.session
 
 # Byte-compiled / optimized / DLL files
