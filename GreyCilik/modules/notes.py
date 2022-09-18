@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import GreyCilik.modules.sql.notes_sql as sql
-from GreyCilik import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik.modules.helper_funcs.handlers import MessageHandlerChecker
-from GreyCilik.modules.helper_funcs.chat_status import user_admin, connection_status
-from GreyCilik.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from GreyCilik.modules.helper_funcs.msg_types import get_note_type
-from GreyCilik.modules.helper_funcs.string_handling import (
+import Afffaantuhhhh.modules.sql.notes_sql as sql
+from Afffaantuhhhh import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.helper_funcs.handlers import MessageHandlerChecker
+from Afffaantuhhhh.modules.helper_funcs.chat_status import user_admin, connection_status
+from Afffaantuhhhh.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Afffaantuhhhh.modules.helper_funcs.msg_types import get_note_type
+from Afffaantuhhhh.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
