@@ -5,9 +5,9 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from GreyCilik import DRAGONS, dispatcher
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik.modules.helper_funcs.chat_status import (
+from Afffaantuhhhh import DRAGONS, dispatcher
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.helper_funcs.chat_status import (
     bot_admin,
     can_pin,
     can_promote,
