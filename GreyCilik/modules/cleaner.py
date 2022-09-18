@@ -1,14 +1,14 @@
 import html
 
-from GreyCilik import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik.modules.helper_funcs.chat_status import (
+from Afffaantuhhhh import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from GreyCilik.modules.sql import cleaner_sql as sql
+from Afffaantuhhhh.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
