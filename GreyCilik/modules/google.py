@@ -20,10 +20,10 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from GreyCilik import *
+from Afffaantuhhhh import *
 
-from GreyCilik.events import register
-from GreyCilik import telethn as tbot
+from Afffaantuhhhh.events import register
+from Afffaantuhhhh import telethn as tbot
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
@@ -287,6 +287,6 @@ __help__ = """
 ✪ /github <username>*:* Get information about a GitHub user.
 ✪ /country <country name>*:* Gathering info about given country
 ✪ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-✪ Cilik <query>*:* Cilik answers the query
-  💡Ex: `Cilik where is Japan?`
+✪ Miku robot <query>*:* Miku robot answers the query
+  💡Ex: `Miku robot where is Japan?`
 """
