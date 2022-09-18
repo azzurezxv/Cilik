@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/a807460d64ac73c5dc83a.jpg)
+✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/01bd859e5e440f80df2f7.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -106,12 +106,12 @@ buttons = [
         InlineKeyboardButton(text=f"About {dispatcher.bot.first_name} 🤖", callback_data="cilik_"),
     ],
 ]
-
+   InlineKeybooardbutton(text="Owner 🔥", url=f"t.me/TeleEroor
 
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-CILIK_IMG = "https://telegra.ph/file/a807460d64ac73c5dc83a.jpg"
+CILIK_IMG = "https://telegra.ph/file/01bd859e5e440f80df2f7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @greyyvbss \
@@ -799,7 +799,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "☇☇ Hi, i'm active!.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
