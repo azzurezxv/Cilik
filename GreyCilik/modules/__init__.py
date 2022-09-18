@@ -1,4 +1,4 @@
-from GreyCilik import LOAD, NO_LOAD, LOGGER
+from Afffaantuhhhh import LOAD, NO_LOAD, LOGGER
 import sys
 
 
