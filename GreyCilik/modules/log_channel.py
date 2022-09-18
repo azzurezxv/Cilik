@@ -1,7 +1,7 @@
 from datetime import datetime
 from functools import wraps
 from telegram.ext import CallbackContext
-from GreyCilik.modules.helper_funcs.misc import is_module_loaded
+from Afffaantuhhhh.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -20,8 +20,8 @@ if is_module_loaded(FILENAME):
       LOGGER,
       dispatcher,
     )
-    from GreyCilik.modules.helper_funcs.chat_status import user_admin
-    from GreyCilik.modules.sql import log_channel_sql as sql
+    from Afffaantuhhhh.modules.helper_funcs.chat_status import user_admin
+    from Afffaantuhhhh.modules.sql import log_channel_sql as sql
 
     def loggable(func):
         @wraps(func)
