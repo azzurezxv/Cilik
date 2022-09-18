@@ -9,9 +9,9 @@ from telegram import (
     InlineKeyboardMarkup,
     InlineKeyboardButton,
 )
-from GreyCilik import dispatcher, pbot
+from Afffaantuhhhh import dispatcher, pbot
 from pyrogram import filters
-from GreyCilik.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
 
 
 __help__ = """ 
