@@ -7,8 +7,8 @@ import time
 import uuid
 from io import BytesIO
 
-import GreyCilik.modules.sql.feds_sql as sql
-from GreyCilik import (
+import Afffaantuhhhh.modules.sql.feds_sql as sql
+from Afffaantuhhhh import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -18,15 +18,15 @@ from GreyCilik import (
     WOLVES,
     dispatcher,
 )
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik.modules.helper_funcs.alternate import send_message
-from GreyCilik.modules.helper_funcs.chat_status import is_user_admin
-from GreyCilik.modules.helper_funcs.extraction import (
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.helper_funcs.alternate import send_message
+from Afffaantuhhhh.modules.helper_funcs.chat_status import is_user_admin
+from Afffaantuhhhh.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from GreyCilik.modules.helper_funcs.string_handling import markdown_parser
+from Afffaantuhhhh.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
