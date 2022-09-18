@@ -37,10 +37,10 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[GreyCilik]')
-LOGGER.info("Cilik is starting. | An Cilik Project Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger('[Afffaantuhhhh]')
+LOGGER.info("Miku robot is starting. | An Miku robot Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/grey423 (t.me/greyyvbss)")
+LOGGER.info("Project maintained by: github.com/azzurezxv(t.me/Afffaantuhhhh)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
