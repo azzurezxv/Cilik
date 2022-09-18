@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler
 
-import GreyCilik.modules.sql.connection_sql as sql
-from GreyCilik import dispatcher, DRAGONS, DEV_USERS
-from GreyCilik.modules.helper_funcs import chat_status
-from GreyCilik.modules.helper_funcs.alternate import send_message, typing_action
+import Afffaantuhhhh.modules.sql.connection_sql as sql
+from Afffaantuhhhh import dispatcher, DRAGONS, DEV_USERS
+from Afffaantuhhhh.modules.helper_funcs import chat_status
+from Afffaantuhhhh.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
