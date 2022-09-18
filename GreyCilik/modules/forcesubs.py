@@ -10,9 +10,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from GreyCilik import DRAGONS as SUDO_USERS
-from GreyCilik import pbot
-from GreyCilik.modules.sql import forceSubscribe_sql as sql
+from Afffaantuhhhh import DRAGONS as SUDO_USERS
+from Afffaantuhhhh import pbot
+from Afffaantuhhhh.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
