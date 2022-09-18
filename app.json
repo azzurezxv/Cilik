@@ -10,7 +10,7 @@
          "Miku robot"
       ],
     
-   "logo":https://telegra.ph/file/72991fad3de48ba4e02fb.jpg.jpg",  
+   "logo": "https://telegra.ph/file/72991fad3de48ba4e02fb.jpg.jpg",  
    "repository": "https://github.com/azzurezxv/miku",
    "addons": [
           {
