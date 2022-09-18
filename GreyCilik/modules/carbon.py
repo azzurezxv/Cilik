@@ -4,9 +4,9 @@ from pyrogram import __version__ as z
 from telethon import __version__ as s
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import filters
-from GreyCilik import pbot
-from GreyCilik.utils.errors import capture_err
-from GreyCilik.utils.functions import make_carbon
+from Afffaantuhhhh import pbot
+from Afffaantuhhhh.utils.errors import capture_err
+from Afffaantuhhhh.utils.functions import make_carbon
 
 
 @pbot.on_message(filters.command("carbon"))
@@ -24,14 +24,14 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/a807460d64ac73c5dc83a.jpg"
+Tomskuy = "https://telegra.ph/file/72991fad3de48ba4e02fb.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
-        photo=MEMEK,
-        caption=f"""✨ **Hey I'm Cilik Robot** ✨ 
-**Owner repo : [Grey](https://t.me/greyyvbss)**
+        photo=Tomskuy,
+        caption=f"""🔥 **Hallo i am miku Robot** 🔥
+**Owner repo : [Yan](https://t.me/Afffaantuhhhh)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
