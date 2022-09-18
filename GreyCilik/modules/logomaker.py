@@ -3,8 +3,8 @@ import random
 import glob
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
-from GreyCilik.events import register
-from GreyCilik import telethn as tbot, ubot2
+from Afffaantuhhhh.events import register
+from Afffaantuhhhh import telethn as tbot, ubot2
 
 
 def mediainfo(media):
@@ -68,7 +68,7 @@ async def logo_gen(event):
             pics.append(i)
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if not bg_:
         pics = []
@@ -79,7 +79,7 @@ async def logo_gen(event):
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
     if not font_:
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if len(name) <= 8:
         fnt_size = 120
@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Afffaantuhhhh](https://t.me/Afffaantuhhhh)",
             force_document=False,
         )
         os.remove(flnme)
@@ -121,7 +121,7 @@ async def logo_gen(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./GreyCilik/resources/fonts"):
+        if not font_.startswith("./Afffaantuhhhh/resources/fonts"):
             os.remove(font_)
 
 
@@ -151,7 +151,7 @@ async def logo_(event):
             pics.append(i)
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if not bg_:
         pics = []
@@ -162,7 +162,7 @@ async def logo_(event):
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
     if not font_:
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if len(name) <= 8:
         fnt_size = 105
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cilik](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Afffaantuhhhh](https://t.me/Afffaantuhhhh)",
             force_document=False,
         )
         os.remove(flnme)
@@ -204,8 +204,7 @@ async def logo_(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./GreyCilik/resources/fonts"):
-            os.remove(font_)
+        if not font_.startswith("./Afffaantuhhh/resources/fonts"os.remove(font_)
 
 
 @register(pattern="^/slogo ?(.*)")
@@ -234,7 +233,7 @@ async def logo_gen(event):
             pics.append(i)
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if not bg_:
         pics = []
@@ -245,7 +244,7 @@ async def logo_gen(event):
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
     if not font_:
-        fpath_ = glob.glob("./GreyCilik/resources/fonts/*")
+        fpath_ = glob.glob("./Afffaantuhhhh/resources/fonts/*")
         font_ = random.choice(fpath_)
     if len(name) <= 8:
         fnt_size = 120
@@ -279,7 +278,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [Afffaantuhhhh](https://t.me/Afffaantuhhhh)",
             force_document=False,
         )
         os.remove(flnme)
@@ -287,7 +286,7 @@ async def logo_gen(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./GreyCilik/resources/fonts"):
+        if not font_.startswith("./miku_support/resources/fonts"):
             os.remove(font_)
 
             
