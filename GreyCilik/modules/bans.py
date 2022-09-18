@@ -19,10 +19,10 @@ from telegram.utils.helpers import mention_html
 from typing import Optional, List
 from telegram import TelegramError
 
-import GreyCilik.modules.sql.users_sql as sql
-from GreyCilik.modules.disable import DisableAbleCommandHandler
-from GreyCilik.modules.helper_funcs.filters import CustomFilters
-from GreyCilik import (
+import Afffaantuhhhh.modules.sql.users_sql as sql
+from Afffaantuhhhh.modules.disable import DisableAbleCommandHandler
+from Afffaantuhhhh.modules.helper_funcs.filters import CustomFilters
+from Afffaantuhhhh import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -32,7 +32,7 @@ from GreyCilik import (
     WOLVES,
     dispatcher,
 )
-from GreyCilik.modules.helper_funcs.chat_status import (
+from Afffaantuhhhh.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     bot_admin,
     can_restrict,
@@ -45,9 +45,9 @@ from GreyCilik.modules.helper_funcs.chat_status import (
     can_delete,
     dev_plus,
 )
-from GreyCilik.modules.helper_funcs.extraction import extract_user_and_text
-from GreyCilik.modules.helper_funcs.string_handling import extract_time
-from GreyCilik.modules.log_channel import gloggable, loggable
+from Afffaantuhhhh.modules.helper_funcs.extraction import extract_user_and_text
+from Afffaantuhhhh.modules.helper_funcs.string_handling import extract_time
+from Afffaantuhhhh.modules.log_channel import gloggable, loggable
 
 
 @connection_status
