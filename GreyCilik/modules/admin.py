@@ -16,16 +16,16 @@ from GreyCilik.modules.helper_funcs.chat_status import (
     ADMIN_CACHE,
 )
 
-from GreyCilik.modules.helper_funcs.admin_rights import (
+from Afffaantuhhhh.modules.helper_funcs.admin_rights import (
     user_can_changeinfo,
     user_can_promote,
 )
-from GreyCilik.modules.helper_funcs.extraction import (
+from Afffaantuhhhh.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from GreyCilik.modules.log_channel import loggable
-from GreyCilik.modules.helper_funcs.alternate import send_message
+from Afffaantuhhhh.modules.log_channel import loggable
+from Afffaantuhhhh.modules.helper_funcs.alternate import send_message
 
 
 @bot_admin
@@ -496,7 +496,7 @@ def refresh_admin(update, _):
     except KeyError:
         pass
 
-    update.effective_message.reply_text("✅ Admins cache refreshed!")
+    update.effective_message.reply_text("🔥Admins cache refreshed!")
 
 
 @connection_status
@@ -815,7 +815,7 @@ def adminlist(update, context):
             if custom_title:
                 text += f"<code> ┗━ {html.escape(custom_title)}</code>\n"
 
-    text += "\n🌟 Admins:"
+    text += "\n🔥 Admins:"
 
     custom_admin_list = {}
     normal_admin_list = []
@@ -826,7 +826,7 @@ def adminlist(update, context):
         custom_title = admin.custom_title
 
         if user.first_name == "":
-            name = "☠ Deleted Account"
+            name = "🚫 Deleted Account"
         else:
             name = "{}".format(
                 mention_html(
