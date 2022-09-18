@@ -286,7 +286,7 @@ async def logo_gen(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./miku_support/resources/fonts"):
+        if not font_.startswith("./Afffaantuhhhh/resources/fonts"):
             os.remove(font_)
 
             
