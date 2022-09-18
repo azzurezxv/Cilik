@@ -4,8 +4,8 @@ import re
 import time
 from functools import partial
 from io import BytesIO
-import GreyCilik.modules.sql.welcome_sql as sql
-from GreyCilik import (
+import Afffaantuhhhh.modules.sql.welcome_sql as sql
+from Afffaantuhhhh import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -15,19 +15,19 @@ from GreyCilik import (
     LOGGER,
     dispatcher,
 )
-from GreyCilik.modules.helper_funcs.chat_status import (
+from Afffaantuhhhh.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from GreyCilik.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from GreyCilik.modules.helper_funcs.msg_types import get_welcome_type
-from GreyCilik.modules.helper_funcs.handlers import MessageHandlerChecker
-from GreyCilik.modules.helper_funcs.string_handling import (
+from Afffaantuhhhh.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Afffaantuhhhh.modules.helper_funcs.msg_types import get_welcome_type
+from Afffaantuhhhh.modules.helper_funcs.handlers import MessageHandlerChecker
+from Afffaantuhhhh.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from GreyCilik.modules.log_channel import loggable
-from GreyCilik.modules.sql.global_bans_sql import is_user_gbanned
+from Afffaantuhhhh.modules.log_channel import loggable
+from Afffaantuhhhh.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
